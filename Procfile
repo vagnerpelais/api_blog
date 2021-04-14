@@ -1,2 +1,2 @@
 python banco
-web: gunicorn app:api
+web: gunicorn app:app
