@@ -1,2 +1,2 @@
-python banco.py
+python banco
 web: gunicorn app:api
