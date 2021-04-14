@@ -215,4 +215,5 @@ def excluir_autor(autor, id_autor):
 
 
 # Inicializando a aplicação na porta 5000
-app.run(port=5000, host='localhost', debug=True)
+if __name__ == '__main__':
+    app.run(port=5000, host='localhost', debug=True)
